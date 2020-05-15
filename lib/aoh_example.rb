@@ -14,7 +14,6 @@ def assembled_aoh
     { :name =>  "Bruce Green", :occupation => "Fan of Mildred" }
     ]
   end
-  return assembled_aoh
 
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
@@ -22,6 +21,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
+  
 end
 
 def aoh_update(aoh, row, key, new_value)
