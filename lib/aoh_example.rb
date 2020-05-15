@@ -16,8 +16,9 @@ def assembled_aoh
     KATE_G,
     BRUCE_G
     ]
+  p result
 end
-return result
+
 
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
