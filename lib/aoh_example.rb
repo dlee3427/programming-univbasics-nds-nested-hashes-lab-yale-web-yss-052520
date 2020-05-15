@@ -5,6 +5,7 @@ PAT_M =  { name:  "Pat Monteseian", occupation: "Staff" }
 KATE_G = { name:  "Kate Gompert", occupation: "None" }
 BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
+require 'pry'
 def assembled_aoh
   result = [
     { name:  "Don Gately", occupation: "Live-in Staff"},
@@ -13,6 +14,7 @@ def assembled_aoh
     { name:  "Kate Gompert", occupation: "None" },
     { name:  "Bruce Green", occupation: "Fan of Mildred" }
     ]
+    binding.pry
     return result 
 end
 
