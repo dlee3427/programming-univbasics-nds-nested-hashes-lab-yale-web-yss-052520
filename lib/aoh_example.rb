@@ -6,7 +6,7 @@ KATE_G = { name:  "Kate Gompert", occupation: "None" }
 BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
 require 'pry'
-def assembled_aoh(AoH)
+def assembled_aoh
   result = [
     { :name =>"Don Gately", :occupation => "Live-in Staff"},
     { :name => "Joelle van Dyne", :occupation => "Radio Personality" },
