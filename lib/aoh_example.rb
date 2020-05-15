@@ -13,7 +13,7 @@ def assembled_aoh
     { :name => "Kate Gompert", :occupation => "None" },
     { :name =>  "Bruce Green", :occupation => "Fan of Mildred" }
     ]
-  puts array   
+  return array   
 end
 
 def literal_aoh
